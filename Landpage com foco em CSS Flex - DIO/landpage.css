@@ -176,7 +176,7 @@ header .menu {
     font-size: 32px;
 }
 
-.list-planos {
+.list-plano {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
