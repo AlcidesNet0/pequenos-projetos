@@ -1,0 +1,83 @@
+body {
+    background-color: beige;
+}
+:root {
+    --yellow_border: 2px solid #ffc107;
+    --green_border: 2px solid #198754;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+.hidden {
+    animation: fadeIn 0.75s linear infinite;
+}
+.quadrado {
+    width: 175px;
+    height: 175px;
+    box-shadow: 5px 5px 15px lightgray;
+    border: 2px solid;
+}
+.quadrado:hover {
+    transform: translate(-5px, 5px);
+    cursor: pointer;
+}
+.quadrado-1 {
+    border-top: var(--yellow_border);
+    border-left: var(--yellow_border);
+    border-right: var(--green_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-2 {
+    border-top: var(--yellow_border);
+    border-left: var(--green_border);
+    border-right: var(--green_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-3 {
+    border-top: var(--yellow_border);
+    border-left: var(--green_border);
+    border-right: var(--yellow_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-4 {
+    border-top: var(--green_border);
+    border-left: var(--yellow_border);
+    border-right: var(--green_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-5 {
+    border-top: var(--green_border);
+    border-left: var(--green_border);
+    border-right: var(--green_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-6 {
+    border-top: var(--green_border);
+    border-left: var(--green_border);
+    border-right: var(--yellow_border);
+    border-bottom: var(--green_border);
+}
+.quadrado-7 {
+    border-top: var(--green_border);
+    border-left: var(--yellow_border);
+    border-right: var(--green_border);
+    border-bottom: var(--yellow_border);
+}
+.quadrado-8 {
+    border-top: var(--green_border);
+    border-left: var(--green_border);
+    border-right: var(--green_border);
+    border-bottom: var(--yellow_border);
+}
+.quadrado-9 {
+    border-top: var(--green_border);
+    border-left: var(--green_border);
+    border-right: var(--yellow_border);
+    border-bottom: var(--yellow_border);
+}
