@@ -1,6 +1,6 @@
 # Pequenos projetos 📁💡
 
-Esse repositório abriga os pequenos projetos que fiz, em busca de praticar todo o conhecimento adquirido através de bootcamps, cursos, sites externos e documentações das próprias linguagens. A ideia dessa coleção é servir como um portfólio, que estará em constante atualização, trazendo projetos como landpages, jogos, recriação de sites famosos e entre tantas outras pequenos ideias.
+Esse repositório abriga os pequenos projetos que fiz, em busca de praticar todo o conhecimento adquirido através de bootcamps, cursos, sites externos e documentações das próprias linguagens. A ideia dessa coleção é servir como um portfólio, que estará em constante atualização, trazendo projetos como landpages, jogos, recriação de sites famosos e entre tantas outras ideias.
 
 <h2>Projetos 💻</h2> 
 <table>
@@ -60,3 +60,25 @@ Esse repositório abriga os pequenos projetos que fiz, em busca de praticar todo
   </tbody>
   <tfoot></tfoot>
 </table>
+
+***
+
+# Projeto Nº 1: Contador
+
+Este simples projeto de contador exibe uma página com um valor (inicialmente 0) e três botões (aumentar, diminuir e resetar) para alterar esse valor. Além disso, foi adicionado alguns detalhes no momento em que o valor é alterado: 
+  1.  Se o contador for positivo, o valor fica na cor verde 🟢;
+  2.  Caso ele seja negativo, o valor fica na cor vermelha 🔴;
+  3.  Ao chegar nos múltiplos de 5, o valor também muda sua aparência (🔵 para os positivos e 🟤 para os negativos).
+
+## Linguagens e ferramentas utilizadas:
+
+<div style="display: inline-block">
+ <img align="center" alt="HTML5" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+ <img align="center" alt="CSS3" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+ <img align="center" alt="JavaScript" height="40" width="50" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+</div>
+
+***
+
+# Projeto Nº 2: Jogo da Memória
+
