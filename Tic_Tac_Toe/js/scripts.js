@@ -42,9 +42,9 @@ $(function () {
     let player1Name = sessionStorage.getItem("player1Name");
     let player2Name = sessionStorage.getItem("player2Name");
 
-    let vezDoVerde = `<div class='container text-center pt-4 mt-5 text-dark fs-3 fw-bold'>
+    let vezDoVerde = `<div class='container text-center pt-2 mt-2 text-dark fs-3 fw-bold'>
                     Agora é a vez de <span class='text-success fs-3 fw-bold'>${player1Name}</span> jogar!</div>`;
-    let vezDoAmarelo = `<div class='container text-center pt-4 mt-5 text-dark fs-3 fw-bold'>
+    let vezDoAmarelo = `<div class='container text-center pt-2 mt-2 text-dark fs-3 fw-bold'>
                       Agora é a vez de <span class='text-warning fs-3 fw-bold'>${player2Name}</span> jogar!</div>`;
 
     playerTime == 0 // Garante a alternância da vez;
